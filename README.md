@@ -1,27 +1,32 @@
-## 🚀 About Me
+### Hi, I'm Raffel Prama 👋
 
-I'm a passionate Electrical Engineering graduate specializing in Computer Engineering, driven by a strong interest in **AI Engineering, Machine Learning, Python, and C programming**. My journey involves building innovative tech solutions, backed by hands-on experience in **cloud-native infrastructure, data analysis, and project management**. I'm a **continuous learner** always eager to explore new technologies and contribute to impactful projects.
+AI engineer based in Jakarta. I build LLM agents and RAG systems that run in production, and the infrastructure that keeps them running.
 
----
+- **Now:** AI R&D Engineer at **Gositus** (PT Go Online Solusi). I work on a multi-tenant RAG chatbot platform and the tooling around it: CI/CD automation, observability, and an on-call SRE agent.
+- **Before:** AI Engineer Intern at **Lintasarta**, working on LLM serving, MCP tooling and LLM API benchmarking.
+- **Interested in:** agent orchestration, retrieval quality, and evaluating LLM systems beyond the demo.
 
-## ✨ What I Do
+### Selected work
 
-- **AI Engineer Intern @ Lintasarta:** Currently focused on engineering and deploying scalable **AI/LLM solutions** and optimizing **cloud infrastructure** (Docker, Kubernetes, GCP).
-- **Machine Learning & AI:** Deep Learning, CNN, GA, LLM Integration, Model Development & Deployment, NLP, AI Solution Engineering.
-- **Cloud & DevOps:** Expertise in Elastic Stack, Grafana for system monitoring.
-- **Data Science & Analytics:** Proficient in data cleaning, database management, and statistical analysis.
-- **Problem Solver:** Analytical thinking and innovative solutions are at the core of my approach.
+| Project | What it does | Stack |
+|---|---|---|
+| [trello-agent](https://github.com/raffelprama/trello-agent) | Natural-language agent over the Trello REST API. An orchestrator plans a step DAG, specialised agents execute it, a reflection step recovers from failures, and deletes sit behind a safety gate. | LangGraph · FastAPI · OpenAI |
+| [paper-chatbot](https://github.com/raffelprama/paper-chatbot) | Multi-agent research-paper assistant: query clarification, supervisor routing, PDF retrieval and web search, then a formatted answer. | LangGraph · Qdrant · FastAPI · Docker |
+| [customer-service-chatbot](https://github.com/raffelprama/customer-service-chatbot) | Customer-support API where a local LLM uses tool calling to look up products, users and warranties in Postgres. | FastAPI · PostgreSQL · Ollama |
+| [a2aproject](https://github.com/raffelprama/a2aproject) | Agent-to-Agent (A2A) demo: data agents return raw records, a client LLM agent does all reasoning and ranking. | A2A · LangGraph · FastAPI |
+| [mcp-cldkctl](https://github.com/raffelprama/mcp-cldkctl) | MCP server that exposes a cloud CLI (Kubernetes, VMs, registry, billing) to Claude Desktop and Cursor. | MCP · Python |
+| [WHO-growth-chart-Calculator](https://github.com/raffelprama/WHO-growth-chart-Calculator) | Neural network that predicts infant weight from WHO growth standards (R² 0.95). | PyTorch |
 
----
+### Stack
 
-## 📚 My Learning Journey
+[![Stack](https://skillicons.dev/icons?i=py,fastapi,postgres,redis,docker,kubernetes,linux,nginx,grafana,prometheus,githubactions,pytorch)](https://skillicons.dev)
 
-- Continuously expanding my knowledge in **advanced AI/ML concepts** and **cutting-edge cloud technologies**.
-- Always seeking opportunities to learn and apply new skills.
+LangGraph · LangChain · MCP · Qdrant · pgvector · Frappe/ERPNext
 
----
+### Background
 
-## 🤝 Let's Connect!
+B.Eng. in Electrical Engineering (Computer Engineering), Universitas Brawijaya. Thesis: CNN hyperparameter optimisation with a genetic algorithm.
 
-- **LinkedIn:** [LinkedIn](https://www.linkedin.com/in/raffelprama/)
-- **Email:** raffelprama36@gmail.com
+### Contact
+
+[LinkedIn](https://www.linkedin.com/in/raffelprama/) · raffelprama36@gmail.com
